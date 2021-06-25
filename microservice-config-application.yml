@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+
+___
+
+server:
+  port: 4001
+spring:
+  profiles: dev
+  applications:
+    name: microservice-config-dev
+
+___
+
+server:
+  port: 4002
+spring:
+  profiles: prod
+  applications: 
+    name: microservice-config-prod
