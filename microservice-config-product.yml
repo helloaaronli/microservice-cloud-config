@@ -33,7 +33,7 @@ eureka:
       defaultZone: http://eureka6001.com:6001/eureka
   instance:
     instanceId: ${spring.application.name}:${server.port} # 等价于microservice-product:8001
-    prefer-ip-addre ss: true #访问路径就会显示成IP地址
+    prefer-ip-address: true #访问路径就会显示成IP地址
 ---
 server:
   port: 8001
@@ -66,4 +66,4 @@ eureka:
       defaultZone: http://eureka6001.com:6001/eureka
   instance:
     instanceId: ${spring.application.name}:${server.port} # 等价于microservice-product:8001
-    prefer-ip-addre ss: true #访问路径就会显示成IP地址
+    prefer-ip-address: true #访问路径就会显示成IP地址
